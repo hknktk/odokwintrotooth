@@ -1,0 +1,470 @@
+body{
+  -webkit-text-size-adjust:100%;
+}
+
+body p,li
+{
+  max-height:100%;
+}
+
+/* header .top{
+  background-image:url("../img/odo6.png");
+  background-size:cover;
+  background-position: center;
+  background-repeat:no-repeat;
+  color:#fff;
+} */
+
+header h1{
+  font-size:120px;
+  text-align:center;
+  position: relative;
+  display: block;
+  margin:0 auto;
+  background:linear-gradient(transparent 90%,yellow 90%);
+}
+
+header h1 #k{
+  color: rgb(255, 126, 212);
+  position: relative;
+  animation: anime1 10s ease;
+}
+
+@keyframes anime1{
+  0%{
+    opacity:0.5;
+    top:-200px;
+  }
+
+  100%{
+    opacity:1;
+    top:0px;
+  }
+}
+
+header h1 #w{
+  color:rgba(0, 0, 0, 0.808);
+  position: relative;
+  animation: anime3 2s ease;
+}
+
+@keyframes anime3{
+  0%{
+    opacity:0.5;
+    top:-100px;
+  }
+
+  100%{
+    opacity:1;
+    top:0px;
+  }
+}
+
+
+
+header .lead{
+  text-align:right;
+  color:#eb1710;
+  margin:0 auto;
+  position: relative;
+  font-size: 15px;
+  animation: anime2 5s ease;
+}
+@keyframes anime2{
+  0%{
+    opacity:0;
+    top:50px;
+  }
+  100%{
+    opacity:1;
+    top:0;
+  }
+}
+.initial{
+  font-size:80px; 
+}
+
+#navi{
+  margin-top: 0;
+  list-style:none;
+  overflow: hidden;
+  display: block;
+}
+
+#navi{
+  padding-left: 0px;
+}
+
+#navi li{
+  width:20%;
+  text-align:center;
+  background-color:#333;
+  float:left;
+  height:50px;
+  line-height:50px;
+}
+#navi li a{
+  text-decoration:none;
+  color:#fff;
+  font-weight:bold;
+  font-size:30px;
+}
+
+.radio,.favorite,.program{
+  margin-top:-40px;
+}
+
+main h1{     
+  font-size:60px;  
+  line-height:90px;         
+  font-weight:normal;  
+  color:rgb(247, 170, 82); 
+}
+
+#mbr{
+  margin-bottom: 0px;
+}
+
+.member .contents{
+  text-align: center;
+}
+
+.member #w{
+  display: block;
+  width:40%;
+  height:550px;
+  margin-left:70px;
+  float: left;
+  background-color:rgba(255, 255, 255, 0.4);
+  background-blend-mode:lighten;
+  text-align: left;
+  margin-bottom: 30px;
+  border-radius:30px;
+  border:3px solid;
+  border-color: rgb(205, 255, 192);
+}
+
+.member #k{
+  display: block;
+  width:40%;
+  height:550px;
+  margin-left:80px;
+  float: left;
+  background-color:rgba(255, 255, 255, 0.4);
+  background-blend-mode:lighten;
+  text-align: left;
+  margin-bottom: 30px;
+  border-radius:30px;
+  border:3px solid;
+  border-color:pink;
+}
+
+
+
+.member {
+  float: left;
+  background-image:url("../img/kw.png");
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  background-color:rgba(255, 255, 255, 0.4);
+  background-blend-mode:lighten;  
+}
+
+.member h1{
+  margin-top:-40px;
+
+}
+
+.radio h1,.history h1,.favorite h1{
+  margin-bottom:-100px;
+}
+
+
+.translate{
+  font-weight: normal;
+  font-size: 25px;
+  margin-top:-40px;
+}
+
+
+
+
+.member h2{
+  font-size:40px;
+  text-align: center;
+}
+
+.member #waka{
+  color: rgba(59, 33, 33, 0.87);
+}
+
+.member #kasu{
+  color: rgb(245, 115, 180);
+}
+
+#wh,#kh{
+  font-size:15px;
+  font-weight: normal;
+}
+
+.member p{
+  font-size:15px;
+  font-weight: bold;
+}
+
+.member .red{
+  color:rgb(255, 8, 8);
+  font-weight: bold;
+  font-size:20px;
+}
+
+main .history .photo{
+  background-image:url("../img/odo2.png");
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  background-color:rgba(255, 255, 255, 0.5);
+  background-blend-mode:lighten;
+} 
+
+
+/* .back{
+  background-color:rgba(255,255,255,0.4);
+  background-blend-mode:lighten;
+} */
+
+.history .back{
+  display: block;
+  text-align: center;
+}
+
+.history table{
+  display: inline-block;
+  text-align: left;
+}
+.history table th{
+  text-align: center;
+  color:rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.history table td{
+  color:rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+
+tr #year{
+  text-align:center;
+  color:rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+
+.history .red{
+  color:rgb(255, 8, 8);
+  font-weight:bold;
+  font-size:25px;
+}
+
+
+.program #photo1{
+  background-image:url("../img/waka4.png");
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  background-color:rgba(255, 255, 255, 0.5);
+  background-blend-mode:lighten;
+}
+.program #photo2{
+  background-image:url("../img/kasu3.png");
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-color:rgba(255, 255, 255, 0.5);
+  background-blend-mode:lighten;
+}
+
+.program h1{
+  margin-bottom:-200px;
+}
+
+
+
+.program h2{
+  text-align:center;
+  font-size:40px;
+  color:rgb(236, 240, 18);
+}
+
+.program .local{
+  display:block;
+  text-align: center;
+}
+
+.program ol{
+  display: inline-block; 
+  margin-bottom: 0px;
+}
+
+.program li{
+  font-size:25px;
+  font-weight:bold;
+  text-align-last: left;
+}
+
+.program .red{
+  color:rgb(255, 8, 8);
+  font-weight:bold;
+  font-size:25px;
+}
+
+.program .pink{
+  color:rgb(241, 30, 189);
+}
+
+
+
+#prg{
+  margin-bottom:-90px;
+}
+
+#wakapro{
+  margin-top: 0px;
+}
+
+.favorite #photo{
+  background-image: url("../img/oni.png");
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  background-color:rgba(255, 255, 255, 0.5);
+  background-blend-mode:lighten;
+}
+
+.favorite .local{
+  display: block;
+  text-align: center;
+}
+
+.favorite ol{
+  display:inline-block;
+  text-align-last: left;
+}
+
+.favorite li{
+  padding-top:50px;
+  font-size:40px;
+}
+
+.favorite ol p{
+  font-size:20px;
+}
+
+.first{
+  color: rgb(252, 14, 240);
+
+}
+
+.second{
+  color: rgb(243, 240, 46);
+
+}
+
+.third{
+  color: rgb(101, 245, 255);
+
+}
+
+.favorite .red{
+  color:rgb(255, 8, 8);
+  font-weight: bold;
+}
+
+a{
+  color:#00f;
+}
+
+
+.radio #photo{
+  background-image: url("../img/odo7.png");
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  background-color:rgba(255, 255, 255, 0.5);
+  background-blend-mode:lighten;
+
+}
+
+.radio h2{
+  font-size:40px;
+  text-align: center;
+}
+
+
+.radio .contents{
+  display: block;
+  text-align: center;
+}
+
+.radio .red{
+  color:rgb(255, 8, 8);
+  font-weight:bold;
+  font-size:20px;
+}
+
+.radio .contents .green{
+  color:green;
+}
+.radio .contents .yellow{
+  color: yellow;
+}
+.radio .contents .orange{
+  color:orange;
+}
+
+.radio .contents .chank{
+  display:inline-block;
+  font-size:20px;
+  text-align: left;
+}
+
+
+footer{
+  display: block;
+  height:100px;
+  line-height:100px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+li{
+  list-style: none;
+}
+
+
+main p{
+  color:white;
+}
+
+main li{
+  color:white;
+
+}
+
+.member p,.radio P{
+  color: #000;
+}
+
+.favorite p{
+  color: #000;
+}
+
+
+
+
+
+
+
+
+
